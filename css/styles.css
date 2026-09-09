@@ -276,7 +276,7 @@ section { padding: 88px 0; }
 .duotone-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(20, 26, 28, 0.05) 0%, rgba(15, 20, 22, 0.75) 85%);
+  background: linear-gradient(180deg, rgba(14, 30, 34, 0.18) 0%, rgba(11, 24, 27, 0.82) 88%);
 }
 
 .duotone-content {
@@ -314,6 +314,10 @@ section { padding: 88px 0; }
   height: 150px;
   object-fit: cover;
   background: var(--paper-alt);
+}
+
+.pillar-photo.is-light {
+  filter: brightness(1.16) saturate(0.82);
 }
 
 .pillar-body { padding: 0 26px 32px; }
@@ -363,7 +367,7 @@ section { padding: 88px 0; }
 .service-card.card-orange { border-top-color: var(--orange); }
 .service-card.card-gold { border-top-color: var(--gold); }
 
-.service-card .tag {
+.service-card .tag, .pillar-body .tag {
   display: inline-block;
   font-size: 0.75rem;
   font-weight: 700;
@@ -376,13 +380,13 @@ section { padding: 88px 0; }
   margin-bottom: 16px;
 }
 
-.service-card ul {
+.service-card ul, .pillar-body ul {
   margin: 18px 0 0;
   padding-left: 20px;
   color: #555;
   font-size: 0.95rem;
 }
-.service-card ul li { margin-bottom: 6px; }
+.service-card ul li, .pillar-body ul li { margin-bottom: 6px; }
 
 /* ---------- Stats strip ---------- */
 .stats {
