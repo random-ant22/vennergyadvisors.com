@@ -437,15 +437,26 @@ section { padding: 88px 0; }
 
 .venn-figure {
   position: relative;
-  background: var(--paper-alt);
-  border-radius: var(--radius);
-  border: 1px solid var(--line);
-  padding: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 20px;
 }
-.venn-figure img { max-width: 280px; }
+.venn-figure img { max-width: 340px; width: 100%; }
+
+/* ---------- Approach section (fading duotone backdrop) ---------- */
+.approach-fade {
+  background: linear-gradient(90deg, #eef0f0 0%, #e4e6e6 46%, #333333 58%, #000000 68%, #000000 100%);
+}
+
+.approach-fade h2, .approach-fade h4 { color: var(--charcoal-dark); }
+.approach-fade > .container > .about-grid > div:first-child p { color: #555; }
+
+@media (max-width: 900px) {
+  .approach-fade {
+    background: linear-gradient(180deg, #000000 0%, #000000 12%, #333333 24%, #e4e6e6 40%, #eef0f0 100%);
+  }
+}
 
 /* ---------- Contact page ---------- */
 .contact-grid {
