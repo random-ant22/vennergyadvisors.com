@@ -1,0 +1,47 @@
+<svg viewBox="0 0 600 340" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMax slice">
+  <defs>
+    <linearGradient id="skyG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1c3a1a"/>
+      <stop offset="100%" stop-color="#73C26D"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="340" fill="url(#skyG)"/>
+  <path d="M0,258 L160,240 320,262 480,244 600,258 600,340 0,340 Z" fill="#1a2e19"/>
+
+  <!-- plant -->
+  <g fill="#1a2e19">
+    <rect x="70" y="196" width="150" height="66" />
+    <rect x="120" y="150" width="14" height="46" />
+    <rect x="154" y="134" width="14" height="62" />
+    <ellipse cx="127" cy="144" rx="17" ry="8" opacity="0.75"/>
+    <ellipse cx="161" cy="128" rx="17" ry="8" opacity="0.75"/>
+  </g>
+
+  <!-- wind turbines -->
+  <g stroke="#1a2e19" stroke-width="4" fill="none" stroke-linecap="round">
+    <g transform="translate(360,0)">
+      <line x1="0" y1="130" x2="0" y2="240" />
+      <g transform="translate(0,130)">
+        <line x1="0" y1="0" x2="4" y2="-52" />
+        <line x1="0" y1="0" x2="-46" y2="18" />
+        <line x1="0" y1="0" x2="34" y2="38" />
+      </g>
+    </g>
+    <g transform="translate(460,0)" opacity="0.85">
+      <line x1="0" y1="150" x2="0" y2="238" />
+      <g transform="translate(0,150) rotate(25)">
+        <line x1="0" y1="0" x2="4" y2="-44" />
+        <line x1="0" y1="0" x2="-38" y2="16" />
+        <line x1="0" y1="0" x2="28" y2="32" />
+      </g>
+    </g>
+    <g transform="translate(280,0)" opacity="0.7">
+      <line x1="0" y1="168" x2="0" y2="234" />
+      <g transform="translate(0,168) rotate(-15)">
+        <line x1="0" y1="0" x2="3" y2="-34" />
+        <line x1="0" y1="0" x2="-30" y2="12" />
+        <line x1="0" y1="0" x2="22" y2="26" />
+      </g>
+    </g>
+  </g>
+</svg>

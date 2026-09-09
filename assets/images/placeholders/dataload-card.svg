@@ -1,0 +1,47 @@
+<svg viewBox="0 0 600 340" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMax slice">
+  <defs>
+    <linearGradient id="skyL" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a2708"/>
+      <stop offset="100%" stop-color="#F79B1C"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="340" fill="url(#skyL)"/>
+  <path d="M0,262 L200,246 400,266 600,250 600,340 0,340 Z" fill="#2c1e08"/>
+
+  <!-- data center building -->
+  <g fill="#2c1e08">
+    <rect x="150" y="132" width="300" height="128" />
+    <rect x="150" y="120" width="300" height="14" />
+    <line x1="230" y1="132" x2="230" y2="260" stroke="#2c1e08" stroke-width="4"/>
+    <line x1="370" y1="132" x2="370" y2="260" stroke="#2c1e08" stroke-width="4"/>
+    <line x1="150" y1="96" x2="150" y2="120" stroke="#2c1e08" stroke-width="4"/>
+    <circle cx="150" cy="90" r="6" fill="#FFC20E"/>
+  </g>
+
+  <!-- server-light grid -->
+  <g fill="#FFC20E">
+    <rect x="172" y="152" width="12" height="12" opacity="0.9"/>
+    <rect x="196" y="152" width="12" height="12" opacity="0.5"/>
+    <rect x="172" y="176" width="12" height="12" opacity="0.5"/>
+    <rect x="196" y="176" width="12" height="12" opacity="0.9"/>
+    <rect x="172" y="200" width="12" height="12" opacity="0.7"/>
+    <rect x="196" y="200" width="12" height="12" opacity="0.4"/>
+
+    <rect x="262" y="152" width="12" height="12" opacity="0.5"/>
+    <rect x="286" y="152" width="12" height="12" opacity="0.9"/>
+    <rect x="310" y="152" width="12" height="12" opacity="0.6"/>
+    <rect x="262" y="176" width="12" height="12" opacity="0.9"/>
+    <rect x="286" y="176" width="12" height="12" opacity="0.4"/>
+    <rect x="310" y="176" width="12" height="12" opacity="0.8"/>
+    <rect x="262" y="200" width="12" height="12" opacity="0.5"/>
+    <rect x="286" y="200" width="12" height="12" opacity="0.7"/>
+    <rect x="310" y="200" width="12" height="12" opacity="0.9"/>
+
+    <rect x="400" y="152" width="12" height="12" opacity="0.8"/>
+    <rect x="424" y="152" width="12" height="12" opacity="0.5"/>
+    <rect x="400" y="176" width="12" height="12" opacity="0.4"/>
+    <rect x="424" y="176" width="12" height="12" opacity="0.9"/>
+    <rect x="400" y="200" width="12" height="12" opacity="0.9"/>
+    <rect x="424" y="200" width="12" height="12" opacity="0.6"/>
+  </g>
+</svg>

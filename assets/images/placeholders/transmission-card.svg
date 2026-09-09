@@ -1,0 +1,37 @@
+<svg viewBox="0 0 600 340" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMax slice">
+  <defs>
+    <linearGradient id="skyT" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#12303a"/>
+      <stop offset="100%" stop-color="#34C2D7"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="340" fill="url(#skyT)"/>
+  <path d="M0,250 L140,232 300,256 460,236 600,252 600,340 0,340 Z" fill="#0e2429"/>
+
+  <g stroke="#0e2429" stroke-width="4" fill="none" stroke-linecap="round">
+    <g transform="translate(230,0)">
+      <line x1="0" y1="150" x2="-42" y2="252" />
+      <line x1="0" y1="150" x2="42" y2="252" />
+      <line x1="-26" y1="196" x2="26" y2="196" />
+      <line x1="-34" y1="224" x2="34" y2="224" />
+      <line x1="-42" y1="252" x2="42" y2="252" />
+      <line x1="-52" y1="112" x2="52" y2="112" />
+      <line x1="-36" y1="112" x2="0" y2="150" />
+      <line x1="36" y1="112" x2="0" y2="150" />
+      <line x1="-52" y1="112" x2="-52" y2="98" />
+      <line x1="52" y1="112" x2="52" y2="98" />
+      <line x1="0" y1="112" x2="0" y2="80" />
+    </g>
+    <path d="M178,112 C90,100 30,120 -60,106" />
+    <path d="M282,112 C380,102 440,118 540,108" />
+
+    <g transform="translate(470,0)" opacity="0.85">
+      <line x1="0" y1="196" x2="-24" y2="248" />
+      <line x1="0" y1="196" x2="24" y2="248" />
+      <line x1="-16" y1="222" x2="16" y2="222" />
+      <line x1="-32" y1="164" x2="32" y2="164" />
+      <line x1="-22" y1="164" x2="0" y2="196" />
+      <line x1="22" y1="164" x2="0" y2="196" />
+    </g>
+  </g>
+</svg>
