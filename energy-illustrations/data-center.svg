@@ -1,0 +1,119 @@
+<svg viewBox="0 0 960 600" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Light, cheerful duotone illustration of a bright server room with two rows of racks lit by colorful indicator lights, a sunlit window, pendant lamps, and a potted plant.">
+  <defs>
+    <linearGradient id="dc-window-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#B9D0CB"/>
+      <stop offset="1" stop-color="#F2EDDF"/>
+    </linearGradient>
+    <radialGradient id="dc-sun" cx="0.72" cy="0.28" r="0.4">
+      <stop offset="0" stop-color="#C9A227" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#C9A227" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="dc-lamp-glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#C9A227" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#C9A227" stop-opacity="0"/>
+    </radialGradient>
+    <g id="dc-lights">
+      <circle cx="0" cy="0" r="2.3" fill="#C9A227"/>
+      <circle cx="9" cy="0" r="2.3" fill="#4F6E6A"/>
+      <circle cx="18" cy="0" r="2.3" fill="#B0623A"/>
+      <circle cx="0" cy="9" r="2.3" fill="#4F6E6A"/>
+      <circle cx="9" cy="9" r="2.3" fill="#C9A227"/>
+      <circle cx="18" cy="9" r="2.3" fill="#4F6E6A"/>
+      <circle cx="0" cy="18" r="2.3" fill="#B0623A"/>
+      <circle cx="9" cy="18" r="2.3" fill="#C9A227"/>
+      <circle cx="18" cy="18" r="2.3" fill="#4F6E6A"/>
+    </g>
+    <pattern id="dc-grain" width="6" height="6" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="0.9" fill="#241F1B" opacity="0.05"/>
+    </pattern>
+  </defs>
+
+  <rect width="960" height="600" fill="#F2EDDF"/>
+  <rect x="0" y="0" width="960" height="42" fill="#D7E3DE"/>
+  <polygon points="0,600 960,600 700,460 260,460" fill="#E7C9A0"/>
+  <line x1="260" y1="460" x2="700" y2="460" stroke="#241F1B" stroke-width="1.5" opacity="0.3"/>
+
+  <rect x="330" y="88" width="300" height="232" fill="url(#dc-window-sky)" stroke="#241F1B" stroke-width="6"/>
+  <circle cx="560" cy="150" r="70" fill="url(#dc-sun)"/>
+  <g fill="#FBF7EC" opacity="0.85">
+    <ellipse cx="400" cy="150" rx="30" ry="11"/>
+    <ellipse cx="428" cy="145" rx="22" ry="9"/>
+  </g>
+  <line x1="480" y1="88" x2="480" y2="320" stroke="#241F1B" stroke-width="4"/>
+  <line x1="330" y1="204" x2="630" y2="204" stroke="#241F1B" stroke-width="4"/>
+
+  <line x1="300" y1="40" x2="300" y2="118" stroke="#8C9A82" stroke-width="2"/>
+  <circle cx="300" cy="128" r="16" fill="url(#dc-lamp-glow)"/>
+  <circle cx="300" cy="128" r="7" fill="#C9A227"/>
+  <line x1="660" y1="40" x2="660" y2="118" stroke="#8C9A82" stroke-width="2"/>
+  <circle cx="660" cy="128" r="16" fill="url(#dc-lamp-glow)"/>
+  <circle cx="660" cy="128" r="7" fill="#C9A227"/>
+
+  <g>
+    <rect x="46" y="292" width="92" height="266" fill="#CFE0DB" stroke="#241F1B" stroke-width="2.5"/>
+    <rect x="46" y="292" width="92" height="14" fill="#8FA89E"/>
+    <use href="#dc-lights" x="60" y="322"/>
+    <use href="#dc-lights" x="60" y="356"/>
+    <use href="#dc-lights" x="60" y="390"/>
+    <use href="#dc-lights" x="60" y="424"/>
+    <use href="#dc-lights" x="60" y="458"/>
+    <use href="#dc-lights" x="60" y="492"/>
+  </g>
+  <g>
+    <rect x="164" y="322" width="74" height="216" fill="#CFE0DB" stroke="#241F1B" stroke-width="2.2"/>
+    <rect x="164" y="322" width="74" height="12" fill="#8FA89E"/>
+    <use href="#dc-lights" transform="translate(176,346) scale(0.85)"/>
+    <use href="#dc-lights" transform="translate(176,376) scale(0.85)"/>
+    <use href="#dc-lights" transform="translate(176,406) scale(0.85)"/>
+    <use href="#dc-lights" transform="translate(176,436) scale(0.85)"/>
+    <use href="#dc-lights" transform="translate(176,466) scale(0.85)"/>
+  </g>
+  <g>
+    <rect x="256" y="352" width="56" height="130" fill="#CFE0DB" stroke="#241F1B" stroke-width="2"/>
+    <use href="#dc-lights" transform="translate(266,368) scale(0.6)"/>
+    <use href="#dc-lights" transform="translate(266,392) scale(0.6)"/>
+    <use href="#dc-lights" transform="translate(266,416) scale(0.6)"/>
+  </g>
+
+  <g>
+    <rect x="822" y="292" width="92" height="266" fill="#CFE0DB" stroke="#241F1B" stroke-width="2.5"/>
+    <rect x="822" y="292" width="92" height="14" fill="#8FA89E"/>
+    <use href="#dc-lights" transform="translate(898,322) scale(-1,1)"/>
+    <use href="#dc-lights" transform="translate(898,356) scale(-1,1)"/>
+    <use href="#dc-lights" transform="translate(898,390) scale(-1,1)"/>
+    <use href="#dc-lights" transform="translate(898,424) scale(-1,1)"/>
+    <use href="#dc-lights" transform="translate(898,458) scale(-1,1)"/>
+    <use href="#dc-lights" transform="translate(898,492) scale(-1,1)"/>
+  </g>
+  <g>
+    <rect x="722" y="322" width="74" height="216" fill="#CFE0DB" stroke="#241F1B" stroke-width="2.2"/>
+    <rect x="722" y="322" width="74" height="12" fill="#8FA89E"/>
+    <use href="#dc-lights" transform="translate(784,346) scale(-0.85,0.85)"/>
+    <use href="#dc-lights" transform="translate(784,376) scale(-0.85,0.85)"/>
+    <use href="#dc-lights" transform="translate(784,406) scale(-0.85,0.85)"/>
+    <use href="#dc-lights" transform="translate(784,436) scale(-0.85,0.85)"/>
+    <use href="#dc-lights" transform="translate(784,466) scale(-0.85,0.85)"/>
+  </g>
+  <g>
+    <rect x="648" y="352" width="56" height="130" fill="#CFE0DB" stroke="#241F1B" stroke-width="2"/>
+    <use href="#dc-lights" transform="translate(694,368) scale(-0.6,0.6)"/>
+    <use href="#dc-lights" transform="translate(694,392) scale(-0.6,0.6)"/>
+    <use href="#dc-lights" transform="translate(694,416) scale(-0.6,0.6)"/>
+  </g>
+
+  <g transform="translate(150,470)">
+    <ellipse cx="0" cy="88" rx="30" ry="8" fill="#241F1B" opacity="0.12"/>
+    <circle cx="0" cy="38" r="9" fill="#F2EDDF" stroke="#241F1B" stroke-width="2"/>
+    <path d="M-11,50 h22 v12 a11,11 0 0 1 -22,0 Z" fill="#4F6E6A"/>
+    <path d="M-15,84 h30 l-4,-22 h-22 Z" fill="#B0623A"/>
+  </g>
+
+  <g transform="translate(430,520)">
+    <path d="M-26,40 h52 l-6,-34 h-40 Z" fill="#B0623A"/>
+    <circle cx="-10" cy="-6" r="20" fill="#4F6E6A" opacity="0.85"/>
+    <circle cx="12" cy="-22" r="16" fill="#4F6E6A" opacity="0.7"/>
+    <circle cx="10" cy="2" r="15" fill="#8FA89E" opacity="0.8"/>
+  </g>
+
+  <rect width="960" height="600" fill="url(#dc-grain)"/>
+</svg>

@@ -1,0 +1,82 @@
+<svg viewBox="0 0 960 600" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Muted duotone illustration of high-voltage lattice transmission towers receding across a flat field under a banded dusk sky, with a bird silhouette in the foreground.">
+  <defs>
+    <linearGradient id="et-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4F6E6A"/>
+      <stop offset="0.45" stop-color="#93916A"/>
+      <stop offset="0.75" stop-color="#C9A227"/>
+      <stop offset="1" stop-color="#B0623A"/>
+    </linearGradient>
+    <pattern id="et-grain" width="6" height="6" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="0.9" fill="#241F1B" opacity="0.12"/>
+    </pattern>
+  </defs>
+
+  <rect width="960" height="600" fill="url(#et-sky)"/>
+
+  <g stroke="#E4DCC8" stroke-width="4" opacity="0.18" fill="none">
+    <path d="M-20,120 H400"/>
+    <path d="M480,150 H960"/>
+    <path d="M100,210 H620"/>
+    <path d="M700,240 H1000"/>
+  </g>
+
+  <polygon points="0,430 240,424 520,432 760,422 960,428 960,460 0,460" fill="#241F1B"/>
+
+  <path d="M150,118 C260,300 260,420 260,455" stroke="#241F1B" stroke-width="3" fill="none"/>
+  <path d="M150,118 L60,455 M150,118 L240,455" stroke="#241F1B" stroke-width="6" fill="none"/>
+  <path d="M60,455 L240,455" stroke="#241F1B" stroke-width="6" fill="none"/>
+  <g stroke="#241F1B" stroke-width="4" fill="none">
+    <line x1="88" y1="360" x2="212" y2="360"/>
+    <line x1="60" y1="455" x2="212" y2="360"/>
+    <line x1="240" y1="455" x2="88" y2="360"/>
+    <line x1="98" y1="290" x2="202" y2="290"/>
+    <line x1="72" y1="380" x2="202" y2="290"/>
+    <line x1="228" y1="380" x2="98" y2="290"/>
+    <line x1="112" y1="220" x2="188" y2="220"/>
+    <line x1="90" y1="300" x2="188" y2="220"/>
+    <line x1="210" y1="300" x2="112" y2="220"/>
+  </g>
+  <line x1="70" y1="150" x2="230" y2="150" stroke="#241F1B" stroke-width="6"/>
+  <line x1="150" y1="118" x2="150" y2="150" stroke="#241F1B" stroke-width="6"/>
+  <circle cx="88" cy="150" r="4" fill="#C9A227"/>
+  <circle cx="212" cy="150" r="4" fill="#C9A227"/>
+
+  <path d="M430,190 C500,310 500,420 500,448" stroke="#241F1B" stroke-width="2.5" fill="none"/>
+  <path d="M430,190 L368,448 M430,190 L492,448" stroke="#241F1B" stroke-width="4.5" fill="none"/>
+  <line x1="368" y1="448" x2="492" y2="448" stroke="#241F1B" stroke-width="4.5"/>
+  <g stroke="#241F1B" stroke-width="3" fill="none">
+    <line x1="386" y1="380" x2="474" y2="380"/>
+    <line x1="368" y1="448" x2="474" y2="380"/>
+    <line x1="492" y1="448" x2="386" y2="380"/>
+    <line x1="396" y1="320" x2="464" y2="320"/>
+    <line x1="380" y1="392" x2="464" y2="320"/>
+    <line x1="480" y1="392" x2="396" y2="320"/>
+  </g>
+  <line x1="376" y1="225" x2="484" y2="225" stroke="#241F1B" stroke-width="4.5"/>
+  <line x1="430" y1="190" x2="430" y2="225" stroke="#241F1B" stroke-width="4.5"/>
+  <circle cx="394" cy="225" r="3" fill="#C9A227"/>
+  <circle cx="466" cy="225" r="3" fill="#C9A227"/>
+
+  <path d="M690,250 C730,330 730,410 730,440" stroke="#241F1B" stroke-width="2" fill="none"/>
+  <path d="M690,250 L654,440 M690,250 L726,440" stroke="#241F1B" stroke-width="3.5" fill="none"/>
+  <line x1="654" y1="440" x2="726" y2="440" stroke="#241F1B" stroke-width="3.5"/>
+  <line x1="666" y1="285" x2="714" y2="285" stroke="#241F1B" stroke-width="3.5"/>
+  <line x1="690" y1="250" x2="690" y2="285" stroke="#241F1B" stroke-width="3.5"/>
+  <line x1="672" y1="360" x2="708" y2="360" stroke="#241F1B" stroke-width="2.5"/>
+
+  <path d="M880,300 C905,350 905,400 905,422" stroke="#241F1B" stroke-width="1.5" fill="none"/>
+  <path d="M880,300 L858,422 M880,300 L902,422" stroke="#241F1B" stroke-width="2.5" fill="none"/>
+  <line x1="858" y1="422" x2="902" y2="422" stroke="#241F1B" stroke-width="2.5"/>
+  <line x1="868" y1="322" x2="892" y2="322" stroke="#241F1B" stroke-width="2.5"/>
+  <line x1="880" y1="300" x2="880" y2="322" stroke="#241F1B" stroke-width="2.5"/>
+
+  <path d="M150,150 C280,138 350,180 430,190" stroke="#241F1B" stroke-width="1.5" fill="none" opacity="0.75"/>
+  <path d="M150,150 C280,146 350,200 430,190" stroke="#241F1B" stroke-width="1.5" fill="none" opacity="0.6"/>
+  <path d="M430,225 C540,210 610,275 690,285" stroke="#241F1B" stroke-width="1.2" fill="none" opacity="0.75"/>
+  <path d="M690,285 C770,296 820,308 880,322" stroke="#241F1B" stroke-width="1" fill="none" opacity="0.7"/>
+  <path d="M880,322 C915,328 940,332 962,335" stroke="#241F1B" stroke-width="0.8" fill="none" opacity="0.6"/>
+
+  <path d="M55,442 q10,-10 20,-2 q7,-8 16,-1" stroke="#241F1B" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <rect width="960" height="600" fill="url(#et-grain)"/>
+</svg>
