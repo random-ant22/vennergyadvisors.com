@@ -276,7 +276,7 @@ section { padding: 88px 0; }
 .duotone-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(14, 30, 34, 0.18) 0%, rgba(11, 24, 27, 0.82) 88%);
+  background: linear-gradient(180deg, rgba(23, 19, 15, 0.15) 0%, rgba(23, 19, 15, 0.85) 88%);
 }
 
 .duotone-content {
@@ -286,9 +286,11 @@ section { padding: 88px 0; }
   padding: 64px 0 56px;
 }
 
-.duotone-content .eyebrow { color: var(--gold); }
+.duotone-content .eyebrow { color: #C9A227; }
 .duotone-content h2 { color: #fff; max-width: 34ch; }
-.duotone-content p { color: #dfe6e7; max-width: 56ch; }
+.duotone-content p { color: #E4DCC8; max-width: 56ch; }
+.duotone-content .btn-accent { background: #C9A227; color: #17130F; }
+.duotone-content .btn-accent:hover { box-shadow: 0 10px 24px rgba(201, 162, 39, 0.35); }
 
 /* ---------- Pillars (Venn concept) ---------- */
 .pillars {
