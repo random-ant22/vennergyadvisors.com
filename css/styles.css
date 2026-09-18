@@ -331,7 +331,7 @@ section { padding: 88px 0; }
   position: relative;
   z-index: 2;
   color: #fff;
-  padding: 64px 0 56px;
+  padding: 64px 24px 56px;
 }
 
 .duotone-content .eyebrow { color: #C9A227; }
